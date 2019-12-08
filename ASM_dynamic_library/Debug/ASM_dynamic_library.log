@@ -1,0 +1,7 @@
+﻿  Assembling LibAsm.asm...
+LibAsm.asm(1): error A2013: .MODEL must precede this directive
+LibAsm.asm(2): error A2034: must be in segment block : FindChar_1
+LibAsm.asm(3): error A2034: must be in segment block
+LibAsm.asm(4): error A2034: must be in segment block
+LibAsm.asm(5): fatal error A1010: unmatched block nesting : FindChar_1
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(69,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\LibAsm.obj" /W3 /errorReport:prompt  /TaLibAsm.asm" exited with code 1.

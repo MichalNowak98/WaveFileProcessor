@@ -1,0 +1,12 @@
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\bin\Debug\WaveProcessing.dll
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\bin\Debug\WaveProcessing.pdb
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\obj\Debug\WaveProcessing.csproj.CoreCompileInputs.cache
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\obj\Debug\WaveProcessing.dll
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\obj\Debug\WaveProcessing.pdb
+D:\!!Visual\!Assembler\WaveProcessing\WaveProcessing\obj\Debug\WaveProcessing.csprojAssemblyReference.cache
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\bin\Debug\WaveProcessing.dll
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\bin\Debug\WaveProcessing.pdb
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\obj\Debug\WaveProcessing.csprojAssemblyReference.cache
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\obj\Debug\WaveProcessing.csproj.CoreCompileInputs.cache
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\obj\Debug\WaveProcessing.dll
+D:\!!Visual\!Assembler\WaveFileProcessing\WaveProcessing\obj\Debug\WaveProcessing.pdb

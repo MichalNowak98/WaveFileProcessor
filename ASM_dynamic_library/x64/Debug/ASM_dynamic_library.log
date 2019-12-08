@@ -1,0 +1,6 @@
+﻿  ASM_dynamic_library.cpp
+D:\!!Visual\!Assembler\WaveFileProcessing\ASM_dynamic_library\ASM_dynamic_library.cpp(8): warning C4273: 'addBytesCpp': inconsistent dll linkage
+  D:\!!Visual\!Assembler\WaveFileProcessing\ASM_dynamic_library\ASM_dynamic_library.h(13): note: see previous definition of 'addBytesCpp'
+D:\!!Visual\!Assembler\WaveFileProcessing\ASM_dynamic_library\ASM_dynamic_library.cpp(13): warning C4273: 'addBytesWTF': inconsistent dll linkage
+  D:\!!Visual\!Assembler\WaveFileProcessing\ASM_dynamic_library\ASM_dynamic_library.h(11): note: see previous definition of 'addBytesWTF'
+  ASM_dynamic_library.vcxproj -> D:\!!Visual\!Assembler\WaveFileProcessing\x64\Debug\ASM_dynamic_library.dll

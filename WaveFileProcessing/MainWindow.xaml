@@ -1,0 +1,45 @@
+﻿<Window x:Class="WaveFileProcessing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WaveFileProcessing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF4F4D49" >
+        <Grid Background="#FF4F4D49" Margin="0 0 0 0" Height="100" VerticalAlignment="Top">
+            <Button Name="LoadButton" Background="White" Content="Load" HorizontalAlignment="Center" Margin="200,30,0,0" VerticalAlignment="Top" Height="40" Width="150" Click="LoadClick"/>
+            <Button Name="SaveButton" Background="White" Content="Save" HorizontalAlignment="Center" Margin="-200,30,0,0" VerticalAlignment="Top" Height="40" Width="150" Click="SaveClick"/>
+        </Grid>
+        <Grid Background="#FF3F60CF" Margin="0 100 0 0" Height="500">
+            <Button Name="ProcessedPlayButton" Background="White" Content="Play processed file" 
+                    HorizontalAlignment="Center" Margin="304,111,552,0" VerticalAlignment="Top" Width="160" 
+                    Click="ProcessedPlayClick" Height="50"/>
+            <Button Name="SynchronicFilterButton" Background="White" Content="Synchronic filter" 
+                    HorizontalAlignment="Center" Margin="427,177,429,0" VerticalAlignment="Top" 
+                    Width="160" Click="SynchronicFilterClick" Height="50"/>
+            <Slider Name="ThreadSlider" HorizontalAlignment="Center" Margin="401,323,401,0" Width="214"
+                    VerticalAlignment="Top" Maximum="100" Minimum="1" TickFrequency="1" 
+                    ValueChanged="ThreadSlider_ValueChanged" IsSnapToTickEnabled="True"/>
+            <Label Name="NumberOfThreadsLabel" Content="Number of threads:" HorizontalAlignment="Center" 
+                   Margin="401,359,503,0" VerticalAlignment="Top" RenderTransformOrigin="0.871,0.787" Width="112"/>
+            <Label Name="TimeLabel" Content="Time passed:" HorizontalAlignment="Center" Margin="401,392,503,0" 
+                   VerticalAlignment="Top" RenderTransformOrigin="0.871,0.787" Height="34" Width="112"/>
+            <Button Name="OriginalPlayButton" Background="White" Content="Play original file" 
+                    HorizontalAlignment="Center" Margin="552,111,304,0" VerticalAlignment="Top" Width="160" 
+                    Click="OriginalPlayClick" Height="50"/>
+            <Button Name="CsFilterButton" Background="White" Content="Multi-threaded filter (C#)" 
+                    HorizontalAlignment="Center" Margin="304,239,552,0" VerticalAlignment="Top" Width="160" 
+                    Click="CsFilterClick" Height="50"/>
+            <Button Name="ASMFilter" Background="White" Content="Multi-threaded filter (ASM)" 
+                    HorizontalAlignment="Center" Margin="552,239,304,0" VerticalAlignment="Top" Width="160" 
+                    Height="50" Click="ASMFilter_Click"/>
+            <TextBlock Name="ThreadNumberText" HorizontalAlignment="Left" Margin="552,364,0,0" 
+                       TextWrapping="Wrap" Text="0" VerticalAlignment="Top" RenderTransformOrigin="-1.041,1.75"/>
+            <TextBlock Name="TimePassedText" HorizontalAlignment="Left" Margin="552,397,0,0" TextWrapping="Wrap" 
+                       Text="ms" VerticalAlignment="Top"/>
+        </Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right"/>
+
+    </Grid>
+</Window>
